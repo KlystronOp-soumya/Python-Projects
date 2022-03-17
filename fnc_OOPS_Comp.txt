@@ -1,0 +1,116 @@
+You are inside question view of Classes and Objects 1 - Task 2
+
+58m left
+
+Skip to main content
+ALL
+1
+2
+2. Classes and Objects 1 - Task 2
+Addition and Subtraction of Complex Numbers
+
+ 
+
+1. Define the class 'comp' that represents the Real and Imaginary parts of a complex number. For example, for the complex number "2+3i", 2 is the real part, and 3 is the imaginary part. 
+
+Hint:
+
+Define the initializer method, __init__, that takes 2 values and assigns them to the above 2 attributes, respectively.
+
+ 
+
+2. Define a method 'add' inside the class 'comp', which determines the sum of two complex numbers and Print the sum as "Sum of the two Complex numbers :35+47i"
+
+ 
+
+3. Define a method 'sub' inside the class 'comp', which determines the difference of two complex numbers and Print the difference as "Subtraction of the two Complex numbers :-33-43i" 
+
+Note: Subtract the second complex number from the first.
+
+ 
+
+Note
+
+Only the above 3 steps are to be followed while writing the code.
+
+Printing the output will be taken care of while testing by creating two different objects for the class 'comp' with sample inputs as arguments and calling the methods.
+
+ 
+
+Input Format for Custom Testing
+
+The first line should contain the value for the 'real' part of the first complex number.
+
+The second line should contain the value for the 'imaginary' part of the first complex number.
+
+The third line should contain the value for the 'real' part of the second complex number.
+
+The fourth line should contain the value for the 'imaginary' part of the second complex number.
+
+ 
+
+Sample Test Case 1
+
+ 
+
+Sample Input
+
+STDIN     
+-----     
+1
+2
+3
+4
+ 
+
+Sample Output
+
+Sum of the two Complex numbers :4+6i
+Subtraction of the two Complex numbers :-2-2i
+ 
+
+Language: Python 3
+Autocomplete Ready
+
+
+
+More
+1101112131415161718192021222324252627
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+#
+#Write your code here
+
+if __name__ == '__main__':
+    
+    real1 = int(input().strip())
+    img1 = int(input().strip())
+    
+    real2 = int(input().strip())
+    img2 = int(input().strip())
+    
+    p1 = comp(real1,img1)
+    p2 = comp(real2,img2)
+
+    p1.add(p2)
+    p1.sub(p2)
+
+Line: 26 Col: 15
+
+Test Results
+
+Custom Input
+
+Run Code
+
+Run Tests
+
+Submit

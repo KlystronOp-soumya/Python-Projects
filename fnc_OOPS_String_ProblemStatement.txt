@@ -1,0 +1,115 @@
+You are inside question view of Hands-on - Python - String Methods
+
+53m left
+
+Skip to main content
+ALL
+1
+1. Hands-on - Python - String Methods
+Python - String Methods
+
+ 
+
+Define a function called `stringmethod`, which takes five parameters.
+
+ 
+
+The first parameter is para, which takes a string sentence.
+The second parameter is special1, which takes a string of special characters.
+The third parameter is special2, which takes a single string of special characters.
+The fourth parameter is list1, which takes a list of strings.
+The fifth parameter is strfind, which takes a string.
+ The function definition code stub is given in the editor. Generate print statements based on the following conditions:
+
+ 
+
+Remove all the special characters from para specified in special1 and save them in the variable word1.
+Get the first 70 characters from word1, reverse the strings, save it in variable rword2, and print it.
+Remove all the wide spaces from rword2, join the characters using the special character specified in special2, and print the joint string.
+If every string from list1 is present in para, then format the print statement as follows:
+"Every string in  {list1} were present"
+else
+"Every string in  {list1} were not present"
+Split every word from word1 and print the first 20 strings as a list.
+Calculate the less frequently used words whose count < 3. and print the last 20 less frequent words as a list.
+Note: Count the words in the order that they appear
+Print the last index in word1, where the substring strfind is found.
+ 
+
+Input Format for Custom Testing
+
+ 
+
+In the first line, the string 'para' is given.
+In the second line, the string 'special1' is given.
+In the third line, the string 'special2' is given.
+The fourth line contains an integer n, the size of the list1.
+            Each of the next n lines contains a list1[i] where 0 ≤ i < n.
+
+In the next line, strfind is given.
+ 
+
+ 
+
+Sample Case 0
+
+ 
+
+Sample Input
+
+STDIN                                                                          Function
+-----                                                                          --------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sem odio...   →  para        
+,_!@*%#$.                                                                      →  special1
+,                                                                              →  special2
+3                                                                              →  list1[] Size n = 3
+adipiscing                                                                     →  list1[] = ['adipiscing', Aliquam                                                                          'Aliquam', 'Suspendisse']
+Suspendisse
+vulputate                                                                      →  strfind = vulputate
+
+
+Sample Output
+
+ido mes mauqilA tile gnicsipida rutetcesnoc tema tis rolod muspi meroL
+i,d,o,m,e,s,m,a,u,q,i,l,A,t,i,l,e,g,n,i,c,s,i,p,i,d,a,r,u,t,e,t,c,e,s,n,o,c,t,e,m,a,t,i,s,r,o,l,o,d,m,u,s,p,i,m,e,r,o,L
+Every string in ['adipiscing', 'Aliquam', 'Suspendisse'] were present
+['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit', 'Aliquam', 'sem', 'odio', 'varius', 'nec', 'aliquam', 'nec', 'tempor', 'commodo', 'ante', 'Pellentesque', 'sit']
+['ultricies', 'ac', 'mattis', 'erat', 'aliquet', 'pretium', 'risus', 'Nullam', 'congue', 'lacus', 'mollis', 'nulla', 'laoreet', 'Cras', 'rutrum', 'justo', 'volutpat', 'bibendum', 'nibh', 'tortor']
+851
+Language: Python 3
+Autocomplete Ready
+
+
+
+More
+11011121314151617181920212223242526272829303132333435363738394041
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+#
+# Complete the 'strmethod' function below.
+#
+# The function accepts following parameters:
+#  1. STRING para
+#  2. STRING spch1
+#  3. STRING spch2
+#  4. LIST li1
+
+Line: 10 Col: 1
+
+Test Results
+
+Custom Input
+
+Run Code
+
+Run Tests
+
+Submit

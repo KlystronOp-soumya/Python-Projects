@@ -1,0 +1,92 @@
+You are inside question view of Classes and Objects 1 - Task 1
+
+1h 12m left
+
+Skip to main content
+ALL
+1
+2
+1. Classes and Objects 1 - Task 1
+Cinema Ticket
+
+1. Define a class 'Movie' that represents Name of the Movie, Number of Tickets, and the Total cost of a movie ticket printing machine.
+
+Hint
+
+Define the initializer method, __init__, that takes three values and assigns them to the above 3 attributes, respectively.
+
+2. Improvise the class definition of 'Movie' such that any Movie object is displayed in the following format:
+
+Sample:
+
+Movie : Kabir Singh
+Number of Tickets : 5
+Total Cost : 666
+
+Hint: Define the method __str__ inside the class 'Movie'.
+
+ 
+
+Note
+
+1. Only the above 2 steps are to be followed while writing the code.
+
+2. Printing the output will be taken care while testing by creating an object for the class 'Movie' with sample inputs as arguments and printing the object.
+
+ 
+
+Input Format for Custom Testing
+
+The first line should contain the value for 'Name of the movie'.
+
+The second line should contain the value for 'no. of tickets'.
+
+The third line should contain the value for 'total cost'.
+
+Sample Test Case 1
+
+Sample Input
+
+STDIN     
+-----     
+Star Wars
+2
+210
+ 
+
+Sample Output
+
+Movie : Star Wars
+Number of Tickets : 2
+Total Cost : 210
+Language: Python 3
+Autocomplete Ready
+
+
+
+More
+110111213
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+# Write your code here
+
+if __name__ == '__main__':
+Line: 10 Col: 1
+
+Test Results
+
+Custom Input
+
+Run Code
+
+Run Tests
+
+Submit

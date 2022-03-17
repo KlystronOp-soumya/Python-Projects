@@ -1,0 +1,1 @@
+print([x*y for x, y in zip([3,4],[5,6])])

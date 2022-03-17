@@ -1,0 +1,93 @@
+You are inside question view of Classes and Objects 2 - Task 2
+
+31m left
+
+Skip to main content
+ALL
+1
+2
+2. Classes and Objects 2 - Task 2
+Polymorphism
+
+ 
+
+1. Define a class 'rectangle' with two methods 'display' and 'area'.
+
+- Define the method 'display' such that it will Print the message "This is a Rectangle" upon calling.
+
+- Define the method 'area' which takes 2 parameters 'Length' and 'Breadth' and find the area of the rectangle and Print as "Area of Rectangle is 144".
+
+ 
+
+2. Define a class 'square' with two methods 'display' and 'area'.
+
+- Define the method 'display' such that it will Print the message "This is a Square" upon calling.
+
+- Define the method 'area' which takes a single parameter 'Side' and find the area of the square and Print as "Area of square is 169".
+
+ 
+
+Note
+
+Only the above 2 steps are to be followed while writing the code.
+
+Printing the output will be taken care of while testing by creating objects for both the classes 'rectangle' and 'square and calling the methods with sample inputs as arguments.
+
+ 
+
+Input Format for Custom Testing
+
+The first line should contain the value for 'Length'.
+
+The second line should contain the value for 'Breadth'.
+
+The third line should contain the value for 'Side'.
+
+ 
+
+Sample Test Case 1
+
+ 
+
+Sample Input
+
+STDIN     
+-----     
+5
+4
+6
+ 
+
+Sample Output
+
+This is a Rectangle
+Area of Rectangle is  20
+This is a Square
+Area of square is  36
+Language: Python 3
+Autocomplete Ready
+
+
+
+More
+11011121314151617181920212223242526
+    obj1 = rectangle()
+    obj1.display() 
+    obj1.area(l,b)
+
+    obj2 = square()
+    obj2.display()
+    obj2.area(s)
+
+Line: 20 Col: 20
+
+Test Results
+
+Custom Input
+
+Run Code
+
+Run Tests
+
+Submit
+Found 1 symbol in \lsp-7927cf10-505f-11ec-819f-af7006ed4cee\file.py

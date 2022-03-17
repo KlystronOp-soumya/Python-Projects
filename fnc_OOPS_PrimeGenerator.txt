@@ -1,0 +1,91 @@
+You are inside question view of Hands-on - Python - Prime Number Generator
+
+40m left
+
+Skip to main content
+ALL
+1
+1. Hands-on - Python - Prime Number Generator
+Python - Prime Number Generator
+
+ 
+
+Define a function called `primegenerator`, which takes two parameters. The parameter 'num' is an integer and is the range up to which the prime number must be generated, and the parameter 'val' contains either 0 or 1. The function definition code stub is given in the editor. Use the concept of generators to yield prime numbers based on the following conditions:
+
+ 
+
+The prime numbers for the 'num' value of 21 are
+2 3 5 7 11 13 17 19
+If the value of 'val' is 0, then you should yield the following values
+3 7 13 19
+If the value of 'val' is 1, then you should yield the following values
+2 5 11 17
+Constraints
+
+The 'num' value is inclusive.
+
+ 
+
+Input Format Format for Custom Testing
+
+ 
+
+In the first line, 'num' is given.
+In the second line, 'val' is given.
+ 
+
+Sample Case 0
+
+ 
+
+Sample Input
+
+STDIN      Function
+-----      --------
+21       →  num = 21
+1        →  val = 1
+
+Sample Output
+
+2 5 11 17 
+Explanation
+
+With 21 as input,  2 3 5 7 11 13 17 19  are generated. Since 1 is odd, we take the odd positions from the result.
+Thus 2 5 11 17  is generated.
+Language: Python 3
+Autocomplete Ready
+
+
+
+More
+11011121314151617181920212223
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+#
+# Complete the 'primegenerator' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts following parameters:
+#  1. INTEGER num
+#  2. INTEGER val
+#
+
+Line: 10 Col: 1
+
+Test Results
+
+Custom Input
+
+Run Code
+
+Run Tests
+
+Submit

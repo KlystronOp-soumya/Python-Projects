@@ -1,0 +1,110 @@
+You are inside question view of Magic Constant Generator
+
+43m left
+
+Skip to main content
+ALL
+1
+1. Magic Constant Generator
+Magic Constant 'M'
+
+ 
+
+A magic square is an arrangement of numbers in a square, where the sum of the numbers in each row, each column, and each diagonal will be equal to the same number. For example, if the number of rows and columns in a magic square is "n", then it will have n*n numbers.
+
+You can create a magic square of any number 'n' except when n = 2. The constant which is the sum of every row, column, and diagonal is called the magic constant, M. Every magic square will have this constant M, which is based on the value of n. The smallest 'nontrivial' case, which is a 3x3 square, has a magic constant of 15.
+
+ 
+
+
+
+ 
+
+ If n = 3, then M = 15. If n = 4, then M = 34, and so on.
+
+The magic constants, are from n = 3, 4, 5, 6, 7, 8:
+
+...15, 34, 65, 111, 175, 260
+
+ 
+
+Write the function definition for the generator named 'generator_Magic', which takes a single parameter 'n1', an Integer.
+
+1. Define the above Generator such that it should yield the Magic constant(s) for the values starting from 3 to 'n1'.
+
+ 
+
+Note
+
+Printing the output will be taken care of during testing, so you need not print the Magic constants yielded by generator 'generator_Magic' and its Type.
+
+ 
+
+Input Format for Custom Testing
+
+Single line input for the parameter 'n'.
+
+ 
+
+Sample Test Case 1
+
+ 
+
+Sample Input
+
+STDIN      Function parameter
+-----      ------------------
+8      →   n  
+
+Sample Output
+
+15
+34
+65
+111
+175
+260
+<class 'generator'>
+Output Explanation
+
+First, it will print the Magic Constant Series one-by-one.
+
+Then, it will print the Type of 'gen1' returned by the function.
+
+Language: Python 3
+Autocomplete Ready
+
+
+
+More
+110111213141516171819202122
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+#
+# Complete the 'Magic_const' function below.
+#
+# 
+#
+# The function accepts INTEGER n1 as parameter.
+#
+
+
+Line: 10 Col: 1
+
+Test Results
+
+Custom Input
+
+Run Code
+
+Run Tests
+
+Submit

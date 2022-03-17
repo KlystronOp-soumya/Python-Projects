@@ -1,0 +1,245 @@
+You are inside question view of Handling Exceptions - 3
+
+9m left
+
+Skip to main content
+ALL
+1
+1. Handling Exceptions - 3
+Bank ATM
+
+ 
+
+This exception handling scenario deals with the exceptional cases that arise in the ATM of a bank.
+
+ 
+
+About the ATM
+
+This is a special kind of ATM that takes three integer inputs from the user, one-by-one. They are:
+
+1. balance - Current Balance of the account.
+
+2. choice - Choice of purpose, that is, Deposit(1) or Withdrawal(2).
+
+3. amount - Amount of Deposit or Withdrawal.
+
+ 
+
+Write the function definition for the function 'Bank_ATM', that takes 3 parameters, which are the above 3 inputs. 
+
+ 
+
+As per the minimum balance policy of the bank, the balance amount must be at least 500.
+
+1. Raise ValueError exception if the input for the current balance is less than '500' and Print the Message. The message to the user must be, "As per the Minimum Balance Policy, Balance must be at least 500".
+
+ 
+
+The input for the option 'choice' will be either '1' or '2', '1' is for Deposit, and '2' is for Withdrawal.
+
+ 
+
+The minimum amount for deposit in this ATM is 2000.
+
+2. Raise a User-Defined exception "MinimumDepositError" if the input for the deposit amount is less than '2000', and Print the Message. The message to the user must be, "The Minimum amount of Deposit should be 2000."
+
+else
+
+'Add' the deposit amount to the "Balance".
+
+ 
+
+As per the minimum balance policy of this bank, the balance amount must be at least 500. So in case of withdrawal:
+
+3. Raise a User-Defined exception "MinimumBalanceError", if the balance amount after withdrawal is less than '500', and Print the Message. The message to the user must be, "You cannot withdraw this amount due to Minimum Balance Policy".
+
+else
+
+'Subtract' the withdrawn amount from the "Balance".
+
+ 
+
+If any transaction has taken place:
+
+4. Print the updated balance as "Updated Balance Amount: 5500".
+
+ 
+
+Important Note
+
+1. The user-defined exception names should be the same as given above.
+
+2. The class definition for the user-defined exceptions must be done Above the Function definition of 'Bank_ATM'. 
+
+ 
+
+Input Format for Custom Testing
+
+In the first line, the first Integer value, say 'bal'.
+
+In the second line, the second Integer value, say 'ch' - Either 1 or 2.
+
+In the third line, the third Integer value, say 'amt' - Either deposit or withdrawal.
+
+ 
+
+Sample Test Case 1
+
+ 
+
+Sample Input
+
+STDIN     
+-----     
+5000
+2
+3000
+ 
+
+Sample Output
+
+Updated Balance Amount:  2000
+ 
+
+Sample Test Case 2
+
+ 
+
+Sample Input
+
+STDIN     
+-----     
+300
+1
+3000
+ 
+
+Sample Output
+
+As per the Minimum Balance Policy, Balance must be at least 500
+ 
+
+Sample Test Case 3
+
+ 
+
+Sample Input
+
+STDIN     
+-----     
+6000
+1
+1500
+ 
+
+Sample Output
+
+The Minimum amount of Deposit should be 2000.
+ 
+
+Sample Test Case 4
+
+ 
+
+Sample Input
+
+STDIN     
+-----     
+6005
+1
+3000
+ 
+
+Sample Output
+
+Updated Balance Amount:  9005
+ 
+
+Sample Test Case 5
+
+ 
+
+Sample Input
+
+STDIN     
+-----     
+10000
+2
+9900
+ 
+
+Sample Output
+
+You cannot withdraw this amount due to Minimum Balance Policy
+Language: Python 3
+Autocomplete Ready
+
+
+
+More
+5556575859606162636465666768
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+#
+# Complete the 'Bank_ATM' function below.
+#
+# Define the Class for user-defined exceptions "MinimumDepositError" and "MinimumBalanceError" here
+
+class MinimumDepositError(Exception):
+    # Constructor method
+    def __init__(self, value):
+…if __name__ == '__main__':
+Line: 83 Col: 17
+
+Test Results
+
+Custom Input
+
+Run Code
+
+Run Tests
+
+Submit
+Compiled successfully.All available test cases passed
+
+Test case 0
+
+Test case 1
+
+Test case 2
+
+Test case 3
+
+Test case 4
+
+Test case 5
+
+Test case 6
+
+Test case 7
+
+Test case 8
+Input (stdin)
+
+Run as Custom Input
+|
+Download
+5000
+2
+3000
+Your Output (stdout)
+Updated Balance Amount:  2000
+Expected Output
+
+Download
+Updated Balance Amount:  2000
+class

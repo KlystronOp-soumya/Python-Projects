@@ -1,0 +1,92 @@
+You are inside question view of Classes and Objects 2 - Task 1
+
+ALL
+
+1. Classes and Objects 2 - Task 1
+Inheritance - Parent and Children Shares
+
+ 
+
+This hands-on is about dividing a family's total assets within the family members based on a percentage.
+
+1. Parents will always inherit 50% of the family's total asset worth.
+
+2. The son will inherit a percentage of the family's total asset worth indicated by the input value ' Percentage_for_son'.
+
+3. The daughter will inherit a percentage of the family's total asset worth indicated by the input value ' Percentage_for_daughter'.
+
+ 
+
+The definition for the parent class 'parent' will be already given in the coding section.
+
+ 
+
+1. Define a class 'son' derived from the class 'parent'.
+
+- Inherit the init function from the parent class and add a variable 'Percentage_for_son', which indicates the percentage of the inheritance he will get from the family's total asset worth.
+
+- Define a method 'son_display', which will Print the share of the son rounded off to 2 decimal places, for example, "Share of Son is 2.0 Million."
+
+ 
+
+2. Define a class 'daughter' derived from the class 'parent'.
+
+- Inherit the init function from the parent class and add a variable 'Percentage_for_daughter', which indicates the percentage of the inheritance she will get from the family's total asset worth.
+
+- Define a method 'daughter_display', which will Print the share of the daughter rounded off to 2 decimal places, for example, "Share of Daughter is 8.0 Million."
+
+ 
+
+Hint: Use the round() function.
+
+ 
+
+Note
+
+The output should always be expressed in the unit "Million", as mentioned above.
+
+Only the above 2 steps are to be followed while writing the code.
+
+Printing the output will be taken care of while testing by creating objects for all the classes with sample inputs as arguments and calling the methods.
+
+ 
+
+Input Format for Custom Testing
+
+The first line should contain the value of 'total_asset'.
+
+The second line should contain the value for 'Percentage of share of son'.
+
+The third line should contain the value for 'Percentage of share of daughter'.
+
+ 
+
+Sample Test Case 1
+
+ 
+
+Sample Input
+
+STDIN     
+-----     
+10
+24
+26
+ 
+
+Sample Output
+
+Share of Son is 2.4 Million.
+Total Asset Worth is 10 Million.
+Share of Parents is 5.0 Million.
+Share of Daughter is 2.6 Million.
+Total Asset Worth is 10 Million.
+Share of Parents is 5.0 Million.
+True
+True
+False
+False
+Output Explanation
+
+In the end, the Boolean results are the result of printing isinstance() on objects created for different classes while testing your code.
+

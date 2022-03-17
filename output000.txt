@@ -1,0 +1,11 @@
+ido mes mauqilA tile gnicsipida rutetcesnoc tema tis rolod muspi meroL
+ido mes mauqilA tile gnicsipida rutetcesnoc tema tis rolod muspi meroL
+
+i,d,o,m,e,s,m,a,u,q,i,l,A,t,i,l,e,g,n,i,c,s,i,p,i,d,a,r,u,t,e,t,c,e,s,n,o,c,t,e,m,a,t,i,s,r,o,l,o,d,m,u,s,p,i,m,e,r,o,L
+i,d,o,m,e,s,m,a,u,q,i,l,A,t,i,l,e,g,n,i,c,s,i,p,i,d,a,r,u,t,e,t,c,e,s,n,o,c,t,e,m,a,t,i,s,r,o,l,o,d,m,u,s,p,i,m,e,r,o,L
+Every string in ['adipiscing', 'Aliquam', 'Suspendisse'] were present
+['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit', 'Aliquam', 'sem', 'odio', 'varius', 'nec', 'aliquam', 'nec', 'tempor', 'commodo', 'ante', 'Pellentesque', 'sit']
+['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit', 'Aliquam', 'sem', 'odio', 'varius', 'nec', 'aliquam', 'nec', 'tempor', 'commodo', 'ante', 'Pellentesque', 'sit']
+['ultricies', 'ac', 'mattis', 'erat', 'aliquet', 'pretium', 'risus', 'Nullam', 'congue', 'lacus', 'mollis', 'nulla', 'laoreet', 'Cras', 'rutrum', 'justo', 'volutpat', 'bibendum', 'nibh', 'tortor']
+['ultricies', 'ac', 'mattis', 'erat', 'aliquet', 'pretium', 'risus', 'Nullam', 'congue', 'lacus', 'mollis', 'nulla', 'laoreet', 'Cras', 'rutrum', 'justo', 'volutpat', 'bibendum', 'nibh', 'tortor']
+851

@@ -1,0 +1,1 @@
+print("ido mes mauqilA tile gnicsipida rutetcesnoc tema tis rolod muspi meroL" == "ido mes mauqilA tile gnicsipida rutetcesnoc tema tis rolod muspi meroL")
