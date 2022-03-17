@@ -13,7 +13,12 @@ def calc_cube(ar):
 
 ar=[2,3,4,5,6]
 t=time.time()
-calc_square(ar)
-calc_cube(ar)
+t1=threading.Thread(target=calc_square,args=(ar,))
+t2=threading.Thread(target=calc_cube,args=(ar,))
 
+t1.start()
+t2.start()
+
+t1.join()
+t2.join()
 print("Time passed: ",time.time()-t)
