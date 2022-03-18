@@ -22,7 +22,6 @@ class CRUDDemo:
                 configs.load(dbConfig)
             return configs
         except Exception as e :
-            print("Here too")
             print(e)
 
     @staticmethod
