@@ -1,0 +1,2 @@
+class EmployeeEnt:
+    pass
