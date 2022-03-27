@@ -1,0 +1,64 @@
+You are inside question view of asyncio - Basic asyncio program
+
+1h 29m left
+
+Skip to main content
+ALL
+1
+1. asyncio - Basic asyncio program
+Asyncio - Basic asyncio program
+
+ 
+
+Let's try out a basic asyncio program. Make two coroutines (functions with `async`) named `question()` and `answer()`.  `question()` should display three questions. After each question, it should await on `answer()` to receive the answer. The answer is the same for all three questions.
+
+The questions that need to be displayed by `question()` are:
+    "Is asyncio better for IO bound programs than the CPU bound ones?"
+    "Is async a keyword in the latest Python3?"
+    "Is event loop the heart of an asyncio program?"
+
+`answer()` should contain just a `print()` giving the message `"Yes, it is!"`.
+
+
+Make `question()` await on `answer()` to receive the answer.
+The final output should be:
+    Is asyncio better for IO bound programs than the CPU bound ones?
+    Yes, it is!
+    Is async a keyword in the latest Python3?
+    Yes, it is!
+    Is event loop the heart of an asyncio program?
+    Yes, it is!
+
+Use the sample programs in the course for reference, if needed.
+
+ 
+
+Carry out the following tasks in serial order.
+
+Task 1: Install dependency package
+
+Open the terminal, File -> New -> Terminal. And run the following commands
+python3 -m pip install pytest-asyncio
+Task 2: Open the python and Write the solution
+
+Open the main.py file available under the challenge directory and follow the instructions given.
+Important Note:
+
+Read every question properly and make sure you are saving the answer with the appropriate data type. 
+
+ 
+
+Task 3: Testing the Questions
+
+After completing the solution, Test your solution,
+Open the terminal, File -> New -> Terminal. And run the following commands
+python3 -m pytest -v test_main.py
+It displays the number of test cases passed and failed.
+Important Note: The results of the sample validation do not impact the final scoring. In-depth scoring will be done at a later stage.
+
+ 
+
+Task 4: Submit the Solution
+
+Once all test cases are passed, you can click on 'Submit' to submit your solution to hackerrank.
+ 
