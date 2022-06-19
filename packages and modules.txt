@@ -1,0 +1,179 @@
+You are inside question view of Python Built-In Package-DATETIME
+
+12m left
+
+Skip to main content
+ALL
+1
+2
+3
+4
+3. Python Built-In Package-DATETIME
+Perform the following operations using the built-in datetime module in python.
+
+ 
+
+Note - Perform all operations in question-1 in func1 and question-2 in func2.
+
+ 
+
+(1) (a)Assign the date using the parameters y,m,d where y is the parameter for year m is parameter for month and d is parameter for date using the date function in datetime module and save it in variable input_date .
+
+ 
+
+      (b)Now from the given date in input_date  add   microseconds using parameter ms , seconds using parameter se , days using parameter da and minutes using parameter mi using the datetime function in datetime module  and assign it in variable input_date1 and print it.
+
+ 
+
+      (c)Now from the above date in variable input_date1  subtract one microsecond , two seconds,three days and two minutes and assign it in  variable t and print it.
+
+     
+
+      (d) Now from the variable t get the day and print it.
+
+     
+
+      (e)Now from the variable t get the year and print it.
+
+ 
+
+      (f)Now from the variable t get the month and print it.
+
+ 
+
+      (g)Now from the variable t get the minute and print it.  
+
+     
+
+      (h)Now from the variable t get the second and print it.   
+
+ 
+
+ 
+
+(2) (a)Define a datetime format - for 3rd January 2020 (a friday) 10:34 in the morning with 24 seconds use 'Fri Jan 03 10 34:24 2020' and assign to variable s.
+
+ 
+
+      (b)Assign the date using the parameters y, m, d, ms, se, da, mi (where y is parameter for year,m is parameter for month, d is parameter for date,ms is parameter for microseconds , se is parameter for seconds, da is parameter for day and mi is parameter for minutes respectively) to the variable x using datetime module  . Now using the format in variable s convert the date x into a string format and save it in variable q.
+
+     
+
+      (c)Now from variable q convert it back to datetime module and store it in variable z.     
+
+ 
+
+Sample Case 0
+
+Sample Input For Custom Testing
+
+2020 5 9 1 2 3 4
+Sample Output
+
+2020-05-09
+2020-05-09 01:02:03.000004
+2020-05-06 01:00:01.000003
+6
+2020
+5
+2
+3
+2020-05-09 01:02:03.000005
+Sat May 09 01 02: 03 2020
+2020-05-09 01:02:03
+ 
+
+Sample Case 1
+
+Sample Input For Custom Testing
+
+2008 5 8 1 2 3 5
+Sample Output
+
+2008-05-08
+2008-05-08 01:02:03.000005
+2008-05-05 01:00:01.000004
+5
+2008
+5
+0
+1
+2008-05-08 01:02:03.000005
+Thu May 08 01 02: 03 2008
+2008-05-08 01:02:03
+Use the 'Test against custom input' box to output the result for debugging. 
+Info
+Language: Python 3
+Autocomplete Ready
+
+
+
+
+More
+1345678910111213141516171819202122
+import os
+import datetime
+
+def func1(y,m,d,ms,se,da,mi):
+
+    input_date = 
+    input_date1=
+    t=
+    day = 
+    year= 
+    month =
+…if __name__ == "__main__":
+Line: 36 Col: 22
+
+Test Results
+
+Custom Input
+
+Run Code
+
+Run Tests
+
+Submit
+
+
+You are inside question view of Python Built-In Package-SHUTIL
+
+11m left
+
+Skip to main content
+ALL
+1
+2
+3
+4
+4. Python Built-In Package-SHUTIL
+Perform the following operation using built-in package shutil in python
+
+ 
+
+(1) Get the working directory of the source (i.e) in  "projects/challenge/New Dir/newww.txt" and save it in variable source. In the same way get destination directory (i.e) "projects/challenge" and save it in variable destination. Now perform copy operation using shutil and copy file "newww.txt" from source to destination and finally save the updated destination directory in variable dest. 
+
+ 
+
+Steps to answer:
+
+1. Select the online IDE. Wait for the installations to complete under the dev-machine tab.
+
+2. In the terminal, you have to Project > Install. [This will install python and required packages for you. There might be some errors during installation. Re-run Project > Install to solve them.]
+
+3. You have to write your code in the prog.py file. Once you are done you may manually run the file from the terminal and debug it.
+4. Run Tests [This will execute your file and check for the required output. It will only show you some custom message. In case of errors, it will not show you the details. To debug you have to manually run the code in the Terminal.]
+
+5. Once you are ready to submit the solution, click on the Submit button.
+
+
+ Web IDE
+
+Test Results
+Help
+
+Run Tests
+
+Submit
+
+https://www.notesbureau.com/2022/01/python-packages-and-data-access-fresco_7.html
