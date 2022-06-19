@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.490" timestamp="2022-06-19T16:02:14.696847" hostname="LAPTOP-7TTN79OF"><testcase classname="unittest_demo.TestAdd2Num" name="test_add2num_with_positive_num" time="0.005" /><testcase classname="unittest_demo.TestAdd2Num" name="test_add_2_num_with_negative_num" time="0.005" /><testcase classname="unittest_demo.Testpow2num" name="test_neg_pow" time="0.004" /><testcase classname="unittest_demo.Testpow2num" name="test_negnum_pow" time="0.003"><failure message="AssertionError: -27 != -26">self = &lt;unittest_demo.Testpow2num testMethod=test_negnum_pow&gt;
+
+    def test_negnum_pow(self):
+&gt;       self.assertEqual(pow2num(-3, 3), -26)
+E       AssertionError: -27 != -26
+
+unittest_demo.py:52: AssertionError</failure></testcase><testcase classname="unittest_demo.Testpow2num" name="test_pow_2pos_num" time="0.006" /></testsuite></testsuites>
