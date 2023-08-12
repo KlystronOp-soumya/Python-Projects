@@ -1,3 +1,5 @@
 *env
-.vscode
-_pycache_
+.vscode/
+_pycache_/
+*.pyc
+Unit Testing/_pycache_/
